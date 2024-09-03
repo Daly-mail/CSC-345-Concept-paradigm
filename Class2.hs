@@ -13,4 +13,4 @@ threeEqual :: Integer -> Integer -> Integer -> Bool
 threeEqual  x y z = x == y && y == z
 
 fourEqual :: Integer -> Integer -> Integer -> Integer -> Bool
-fourEqual w x y z = w == x && x == y && y == z
+fourEqual w x y z = (threeEqual w x y) && y == z
