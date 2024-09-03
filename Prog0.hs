@@ -6,9 +6,9 @@
 module Prog0 where
 
 isPositive :: Float -> Bool
-isPositive x =  >= 0
---isPositive = error "undefined"
+isPositive x = x >= 0
+isPositive = error "undefined"
 
 addTwoNumbers :: Float -> Float -> Float 
-addTwoNumbers = 
---addTwoNumbers = error "undefined"
+addTwoNumbers x y = x + y
+addTwoNumbers = error "undefined"
