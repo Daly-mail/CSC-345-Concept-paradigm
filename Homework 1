@@ -1,0 +1,44 @@
+{- ##################################
+   Name: Liam Daly
+   Date: Sept 17th
+   Homework Assignment: Homework 1 
+   ################################## -}
+
+module Prog1 where
+
+
+
+isThreeDigitPositive :: Int -> Bool
+isThreeDigitPositive = error "undefined"
+
+
+dividesEvenly :: Integer -> Integer -> Bool
+dividesEvenly = error "undefined"
+
+
+middle :: Integer -> Integer -> Integer -> Integer
+middle = error "undefined"
+
+
+nor :: Bool -> Bool -> Bool
+nor = error "undefined"
+
+
+f2c :: Float -> Float
+f2c = error "undefined"
+
+
+floorDecimal :: Float -> Float
+floorDecimal = error "undefined"
+
+
+letterGrade :: Integer -> String
+letterGrade = error "undefined"
+
+
+averageThree :: Integer -> Integer -> Integer -> Float
+averageThree = error "undefined"
+
+
+howManyAboveAverage :: Integer -> Integer -> Integer -> Integer
+howManyAboveAverage = error "undefined"
